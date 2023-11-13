@@ -28,6 +28,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   overflow: hidden;
 }
 
@@ -37,7 +38,8 @@ body {
 }
 
 .login-form {
-  margin-top: 200px;
+  width: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
