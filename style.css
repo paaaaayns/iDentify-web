@@ -28,11 +28,13 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   overflow: hidden;
 }
 
 .logo_small {
+  align-self: flex-start;
   height: auto;
   width: 200px;
 }
@@ -44,6 +46,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  justify-self: center;
+  align-self: center;
 }
 
 .login-container {
@@ -85,4 +89,23 @@ body {
   color: #1f555f;
   cursor: pointer;
   text-decoration: none;
+}
+
+
+@media (max-width: 1200px) {
+  .logo-big {
+    height: 20em;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo-big {
+    height: 15em;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo-big {
+    height: 10em;
+  }
 }
