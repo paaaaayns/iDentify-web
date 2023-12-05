@@ -1,0 +1,100 @@
+body {
+  background-color: #dde9f1;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 15px 15px;
+  background-color: #1f555f;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #1f555f;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo-container{
+  padding: 0px 20px;
+  width: 200px;
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;   
+}
+
+.navbar li {
+  text-align: center;
+  padding: 15px 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* navbar hover effects
+.navbar li:hover {
+  background-color: #111;
+}
+*/
+
+.main-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.table1-container {
+  width: 80%;
+}
+
+.table1 {
+  background-color: white;
+  margin: 30px 0px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table1 .table1-title{
+  color: white;
+  background-color: #1f555f; /* Optional: Set background color for the header */
+}
+
+.table1 th, .table1 td {
+  border: 1px solid #1f555f; /* Optional: Add borders to cells */
+  padding: 10px; /* Optional: Add padding to cells */
+  text-align: left;
+}
+
+.table1-title th {
+  font-size: 1.5em; /* Optional: Adjust font size for title */
+}
+
+.table1-column-heading th {
+  font-weight: bold;
+  text-align: center; /* Center the text */}
+
+.table-list tr td{
+  height: 300px;
+}
+
+
+
+
+
+
+
+

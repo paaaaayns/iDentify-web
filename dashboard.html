@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "icon" href = "./assets/images/logo_dark.png">
+        <title> Dashboard </title>
+        <link rel = "stylesheet" type = "text/css" href = "./dashboard_style.css">
+    </head>
+
+<body style = "overflow: auto;">
+    <div class = "logo-border"></div>
+    <div class = "db-container">
+        <div class = "logo_db_left">
+            <img id = "logo" src = "./assets/images/logo_light.png" alt = "Logo">
+        </div>
+
+        <div class = "db-buttons">
+            <p class = "home"> Home </p>
+            <p class = "supp"> Support </p>
+            <p class = "reg"><a href="register.html"> Register </a></p>
+            <p class = "find"> Find </p>
+            <p class = "acc"> Account </p>
+        </div>
+    </div>
+
+    <div class = "table1">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan = "3" class = "align-left"> Find Patient </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <div class = "search-container">
+                            <span class = "search-label"> Search:  </span>
+                            <input type = "text" id = "search-box" placeholder = "Patient ID...">
+                                <button id = "search-button" type = "submit">
+                                    <img src = "./assets/icons/ic_search.png" alt = "Search">
+                                </button>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class = "search-container">
+                            <span class = "search-label"> Search:  </span>
+                            <input type = "text" id = "search-box" placeholder = "Patient Name...">
+                                <button id = "search-button" type = "submit">
+                                    <img src = "./assets/icons/ic_search.png" alt = "Search">
+                                </button>
+                        </div>
+                    </td>
+                    
+                    <td>
+                        <button class = "button" type = "submit"> Search using IRIS </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class = "table2">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan = "6" class = "align-left"> Patient List </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- Row 1 -->
+                <tr>
+                    <td> UID </td>
+                    <td> Last Name </td>
+                    <td> First Name </td>
+                    <td> Middle Name </td>
+                    <td> Sex </td>
+                    <td> More Details </td>
+                </tr>
+
+                
+                <!-- Row 2 -->
+                <tr class = "none">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="spacer"></div>
+
+</body>
+</html>
